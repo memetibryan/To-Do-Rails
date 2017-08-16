@@ -10,6 +10,7 @@ source 'https://rubygems.org'
   gem 'jquery-rails'
   gem 'turbolinks', '~> 5'
   gem 'jbuilder', '~> 2.5'
+  gem 'devise', '~> 4.3.0'
 
   group :development, :test do
     gem 'byebug', platform: :mri
@@ -28,3 +29,5 @@ source 'https://rubygems.org'
   end
 
   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+ruby "2.3.1"
